@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ripple
+        android:color="#733636"
+        tools:targetApi="lollipop">
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="#B3632121" />
+                <stroke
+                    android:width="2dp"
+                    android:color="#B3731B1B" />
+                <corners android:radius="2dp" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

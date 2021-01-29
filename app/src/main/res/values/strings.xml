@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sked.net</string>
+    <string name="app_author_title">Created by SSE-programmer</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+</resources>

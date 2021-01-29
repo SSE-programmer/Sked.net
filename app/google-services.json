@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "15898448176",
+    "project_id": "sked-net",
+    "storage_bucket": "sked-net.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15898448176:android:599d96330ed996686078f5",
+        "android_client_info": {
+          "package_name": "com.sse_programmer.skednet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15898448176-8c8ka86psgdmua1eq8072todpueqiogm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sse_programmer.skednet",
+            "certificate_hash": "1881fd743ad59f45fbf42b7c109dec9a50c2c225"
+          }
+        },
+        {
+          "client_id": "15898448176-idccdo3aoklqbk3mg4um21qnsqqjmtdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHNbVKFo5QCI-zgYaEyv7AUCU8VcpyGqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15898448176-idccdo3aoklqbk3mg4um21qnsqqjmtdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
