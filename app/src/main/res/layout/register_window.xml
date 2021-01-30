@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="#C5C6CD"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fieldEmail"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/register_window"
+            android:textColorHint="@color/register_window_hint"
+            android:textSize="20sp"
+
+            app:met_baseColor="@color/register_window_base"
+            app:met_errorColor="@color/register_window_error"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/register_window_primary"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/passField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fieldPassword"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@color/register_window"
+            android:textColorHint="@color/register_window_hint"
+            android:textSize="20sp"
+            app:met_baseColor="@color/register_window_base"
+
+            app:met_errorColor="@color/register_window_error"
+            app:met_floatingLabel="highlight"
+            app:met_minCharacters="8"
+            app:met_primaryColor="@color/register_window_primary"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/nameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fieldName"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/register_window"
+            android:textColorHint="@color/register_window_hint"
+            android:textSize="20sp"
+
+            app:met_baseColor="@color/register_window_base"
+            app:met_errorColor="@color/register_window_error"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/register_window_primary"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/surnameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fieldSurname"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/register_window"
+            android:textColorHint="@color/register_window_hint"
+            android:textSize="20sp"
+
+            app:met_baseColor="@color/register_window_base"
+            app:met_errorColor="@color/register_window_error"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/register_window_primary"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/nicknameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fieldNickname"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/register_window"
+            android:textColorHint="@color/register_window_hint"
+            android:textSize="20sp"
+
+            app:met_baseColor="@color/register_window_base"
+            app:met_errorColor="@color/register_window_error"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/register_window_primary"
+            app:met_singleLineEllipsis="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif"
+                android:text="+7"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/phoneField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/fieldPhone"
+                android:inputType="phone"
+                android:text=""
+                android:textColor="@color/register_window"
+                android:textColorHint="@color/register_window_hint"
+                android:textSize="20sp"
+                app:met_minCharacters="9"
+                app:met_maxCharacters="9"
+
+                app:met_baseColor="@color/register_window_base"
+                app:met_errorColor="@color/register_window_error"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/register_window_primary"
+                app:met_singleLineEllipsis="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

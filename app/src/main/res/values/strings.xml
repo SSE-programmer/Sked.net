@@ -4,4 +4,10 @@
     <string name="text_bottom">Войдите в свою учетную запись</string>
     <string name="btnSignIn">Войти</string>
     <string name="btnRegister">Зарегистрироваться</string>
+    <string name="fieldEmail">Email</string>
+    <string name="fieldPassword">Пароль</string>
+    <string name="fieldName">Имя</string>
+    <string name="fieldSurname">Фамилия</string>
+    <string name="fieldNickname">Никнейм</string>
+    <string name="fieldPhone">Телефон</string>
 </resources>

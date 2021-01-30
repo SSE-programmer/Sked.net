@@ -15,4 +15,10 @@
     <color name="btn_sign_in_stroke">#B10000</color>
     <color name="btn_register">#41F14A</color>
     <color name="btn_register_stroke">#00AF09</color>
+
+    <color name="register_window">#000000</color>
+    <color name="register_window_hint">#000000</color>
+    <color name="register_window_error">#800000</color>
+    <color name="register_window_base">#000000</color>
+    <color name="register_window_primary">#0A4700</color>
 </resources>
